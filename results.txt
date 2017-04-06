@@ -1,0 +1,26 @@
+------------------------------
+modeling voting in California using 2010 data now
+------------------------------
+linear regression score(2010 data): 0.011901
+using linear regression: the mean error in the trump prediction is -3.498085 and the mean error in the clinton prediction is 3.976673 (2010 data)
+Five fold cross-validation of the linear regression model (2010 data):
+array([  2.14737221e-01,  -6.26948899e+25,  -5.19425967e-01,
+        -1.99050977e-01,   2.31799000e-01])
+ridge regression score (2010 data): 0.010986
+using ridge regression: the mean error in the trump prediction is -3.709776 and the mean error in the clinton prediction is 4.198817 (2010 data)
+Five fold cross-validation of the ridge regression model (2010 data):
+array([  2.46153759e-01,  -6.33130229e+25,  -5.56618876e-01,
+        -1.34055127e-01,   2.39188667e-01])
+------------------------------
+modeling voting in California using 2015 data now
+------------------------------
+linear regression score (2015 data): 0.250251
+using linear regression: the mean error in the trump prediction is -1.392931 and the mean error in the clinton prediction is 1.831433 (2015 data)
+Five fold cross-validation of the linear regression model (2015 data):
+array([  4.25349764e-01,  -5.19979058e+25,  -4.11400771e-01,
+         1.06726226e-02,   4.51552297e-01])
+ridge regression score(2015 data): 0.245667
+using ridge regression: the mean error in the trump prediction is -1.437697 and the mean error in the clinton prediction is 1.881783 (2015 data)
+Five fold cross-validation of the ridge regression model (2010 data):
+array([  2.46153759e-01,  -6.33130229e+25,  -5.56618876e-01,
+        -1.34055127e-01,   2.39188667e-01])
