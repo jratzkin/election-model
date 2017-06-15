@@ -1,6 +1,10 @@
 # election-model
 This code predicts the 2016 presidential election results by county in California
 
+V3 (15 June 2017): 
+
+added nearest neighbors regression models
+
 Update (6 April 2017): 
 
 I implemented two linear regression models using data from the 2015 ACS; the supporting code is in vote_predicter_redux.py and the outputs are recorded in results.txt. The files lin_regr_2010_data.png, lin_regr_2015_data.png, ridge_regr_2010_data.png, and ridge_regr_2015_data.png all show histograms of the residuals. 
